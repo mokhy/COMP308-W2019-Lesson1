@@ -1,3 +1,4 @@
+
 //global area
 
 //let myGlobalVariable = 0;
@@ -15,7 +16,7 @@ myGlobalVariable = {};*/
     function Starts(){
         //injects the value of the variable myFunctionalVariable
         let myLocalVariable = 0;
-        console.log(`App started... ${myFunctionalVariable}`);
+        console.log(`%c App started... ${myFunctionalVariable}`, "font-size: 20px; color: blue; font-weight: bold;");
     }
     //annonymous function
     /*let Start = function(){
